@@ -2,24 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+/*Corpus*/
+
+/*950px centered corpus*/
+#su-corpus-950 {
+    margin: auto;
+    width: 950px;
+}
+/*750px centered corpus*/
+#su-corpus-750 {
+    margin: auto;
+    width: 750px;
+}
+/*Full-wide corpus*/
+#su-corpus-full {
+    margin: auto;
+    width: 100%;
+}
+
+
+/*Page Content*/
 #content {
 	margin: 7px;
 	min-height: 500px;
 	height:auto;
 	line-height: 25px;
 }
-#su-corpus-950 {
-    margin: auto;
-    width: 950px;
-}
-#su-corpus-750 {
-    margin: auto;
-    width: 750px;
-}
-#su-corpus-full {
-    margin: auto;
-    width: 100%;
-}
+
+/*Quarterly size griding*/
 .su-wd1 {
     float: left;
     width: 25%;
