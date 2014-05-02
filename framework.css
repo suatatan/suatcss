@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#content {
+	margin: 7px;
+	min-height: 500px;
+	height:auto;
+	line-height: 25px;
+}
+#su-corpus-950 {
+    margin: auto;
+    width: 950px;
+}
+#su-corpus-750 {
+    margin: auto;
+    width: 750px;
+}
+#su-corpus-full {
+    margin: auto;
+    width: 100%;
+}
+.su-wd1 {
+    float: left;
+    width: 25%;
+}
+.su-wd2 {
+    float: left;
+    width: 50%;
+}
+.su-wd3 {
+    float: left;
+    width: 75%;
+}
+.su-wd4 {
+    width: 100%;
+}
+.su-row {
+    display: block;
+    overflow: hidden;
+}
+.su-pdt {
+    margin-top: 5px;
+}
+.su-pdb {
+    margin-bottom: 5px;
+}
+.su-mrg {
+    margin: 5px;
+    width: 100% !important;
+}
+.su-bor {
+    border-right: 1px solid gray;
+    margin: -1px;
+}
+.su-bol {
+    border-left: 1px solid gray;
+    margin: -1px;
+}
+.su-bot {
+    border-top: 1px solid gray;
+    margin: -1px;
+}
+.su-bob {
+    border-bottom: 1px solid gray;
+    margin: -1px;
+}
+.su-box {
+    border: 1px solid gray;
+    margin: -1px;
+}
+.su-divex5 div {
+    float: left;
+    width: 10%;
+}
+.su-divex4 div {
+    float: left;
+    width: 20%;
+}
+.su-divex3 div {
+    float: left;
+    width: 33%;
+}
+.su-divex2 div {
+    float: left;
+    width: 50%;
+}
+.su-divex5, divex-4, divex-3, divex-2 {
+    clear: both;
+    display: block;
+}
+.arial {
+    font: 12px Arial,Helvetica,sans-serif;
+}
+.su-err {
+    background-color: red;
+    border: 1px solid gray;
+    margin: 1px;
+    padding: 5px;
+}
+.su-inf {
+    background-color: yellow;
+    border: 1px solid gray;
+    margin: 1px;
+    padding: 5px;
+}
+.su-suc {
+    background-color: Green;
+    border: 1px solid gray;
+    margin: 1px;
+    padding: 5px;
+}
+
+
+a {
+ 
+}
+a:hover {
+    text-decoration: underline;
+}
+.hov:hover {
+    box-shadow: 1px 1px 1px 1px orange;
+}
+input, label {
+    display: block;
+}
+input {
+    border: 2px solid wheat;
+    font-weight: bold;
+}
+input:hover, textarea:hover {
+    border: 2px solid orange;
+}
+form {
+    border: 2px dotted gray;
+    padding: 10px;
+}
+input, textarea {
+    border: 2px solid gray;
+    min-width: 400px;
+    width: auto;
+}
+input[type=submit], .send {
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+}
+.su-button {
+    border: 2px solid white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px 2px 4px 3px;
+}
+.su-bg-orn {
+    background-color: orange;
+}
+.su-bg-blu {
+    background-color: LightSteelBlue;
+}
+.su-bg-red {
+    background-color: red;
+}
+.su-nav-hor {
+    background-color: #0EC6DE;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 2px 1px 2px 1px;
+    height: 60px;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+}
+.su-nav-hor li {
+    float: left;
+}
+.su-nav-hor a {
+    border-right: 1px solid #3FBDBF;
+    color: #371C1C;
+    display: block;
+    font-size: 18px;
+    line-height: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.su-nav-hor a:hover {
+    background-color: #E75A5A;
+}
+.su-txt-jus {
+    text-align: justify;
+}
+.su-img-lt {
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
