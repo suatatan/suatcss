@@ -3,103 +3,139 @@
     padding: 0;
 }
 
-/*Corpus*/
-
-/*950px centered corpus*/
-#su-corpus-950 {
-    margin: auto;
+/*--------------------------------------------------*/
+/*Backbones*/
+.su-backbone-w950{
+	margin: auto;
     width: 950px;
+   
 }
-/*750px centered corpus*/
-#su-corpus-750 {
-    margin: auto;
-    width: 750px;
+.su-backbone-w750{
+	margin: auto;
+    width: 950px;
+   
 }
-/*Full-wide corpus*/
-#su-corpus-full {
-    margin: auto;
-    width: 100%;
+.su-backbone-wfull{
+	margin: auto;
+     width: 100%;
 }
-
-
-/*Page Content*/
-#content {
-	margin: 7px;
-	min-height: 500px;
-	height:auto;
-	line-height: 25px;
-}
-
-/*Quarterly size griding*/
-.su-wd1 {
-    float: left;
-    width: 25%;
-}
-.su-wd2 {
-    float: left;
-    width: 50%;
-}
-.su-wd3 {
-    float: left;
-    width: 75%;
-}
-.su-wd4 {
-    width: 100%;
-}
-.su-row {
+/*--------------------------------------------------*/
+/*Rows are frame of cols*/
+.su-backbone-row {
     display: block;
     overflow: hidden;
 }
-.su-pdt {
-    margin-top: 5px;
+/* Samples
+ * 4column alongside: 25+25+25+5
+ * 3: 25+50+25
+ * 2: 50+50
+ * Lopsided samples
+ * 2: 75+25
+ * or: 25+75*/
+.su-backbone-col25{
+	float: left;
+    width: 25%;
 }
-.su-pdb {
-    margin-bottom: 5px;
+.su-backbone-col50{
+	float: left;
+    width: 50%;
 }
-.su-mrg {
-    margin: 5px;
-    width: 100% !important;
+.su-backbone-col75{
+	float: left;
+    width: 75%;
+}	
+
+/*Fine tuning*/
+.su-backbone-col90{
+	float: left;
+    width: 90%;
 }
-.su-bor {
+.su-backbone-col80{
+	float: left;
+    width: 80%;
+}
+.su-backbone-col70{
+	float: left;
+    width: 70%;
+}
+.su-backbone-col60{
+	float: left;
+    width: 60%;
+}
+.su-backbone-col50{
+	float: left;
+    width: 50%;
+}
+.su-backbone-col40{
+	float: left;
+    width: 40%;
+}
+.su-backbone-col30{
+	float: left;
+    width: 30%;
+}
+.su-backbone-col20{
+	float: left;
+    width: 20%;
+}
+.su-backbone-col10{
+	float: left;
+    width: 10%;
+}
+
+/*--------------------------------------------------*/
+
+/*Visual Seperators
+ Right: sepe+r=seper
+ Left: sepe+l=sepel*/
+.su-backbone-seper {
     border-right: 1px solid gray;
     margin: -1px;
 }
-.su-bol {
+.su-backbone-sepel {
     border-left: 1px solid gray;
     margin: -1px;
 }
-.su-bot {
+.su-backbone-sepet {
     border-top: 1px solid gray;
     margin: -1px;
 }
-.su-bob {
+.su-backbone-sepeb {
     border-bottom: 1px solid gray;
     margin: -1px;
 }
-.su-box {
+/*full-fledged seperate*/
+
+.su-backbone-sepeff {
     border: 1px solid gray;
     margin: -1px;
 }
-.su-divex5 div {
-    float: left;
-    width: 10%;
+/*--------------------------------------------------*/
+/*In Cell operations: Margin inside cell
+ mar+t: marigin top*/
+.su-incell-mart {
+    margin-top: 5px;
 }
-.su-divex4 div {
-    float: left;
-    width: 20%;
+.su-incell-marb {
+    margin-bottom: 5px;
 }
-.su-divex3 div {
-    float: left;
-    width: 33%;
+.su-incell-marl {
+    margin-left: 5px;
 }
-.su-divex2 div {
-    float: left;
-    width: 50%;
+.su-incell-marr {
+    margin-right: 5px;
 }
-.su-divex5, divex-4, divex-3, divex-2 {
-    clear: both;
-    display: block;
+/*full-fledged margin*/
+.su-incell-marff {
+    margin: 5px;
+    width: 100% !important;
 }
+/*--------------------------------------------------*/
+
+/*Old framework*/
+
+
+
 .arial {
     font: 12px Arial,Helvetica,sans-serif;
 }
@@ -120,6 +156,15 @@
     border: 1px solid gray;
     margin: 1px;
     padding: 5px;
+}
+
+
+/*Page Content*/
+#content {
+	margin: 7px;
+	min-height: 500px;
+	height:auto;
+	line-height: 25px;
 }
 
 
