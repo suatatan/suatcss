@@ -1,29 +1,37 @@
+/*Global Settings*/
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	/*fonts*/
+	/*Select your favorite: http://cssfontstack.com/*/
+	font-family: "Lucida Bright", Georgia, serif;
+
+}
+/*Setting naturel margin*/
+p, img h1,h2,h3,h4,ul,input,textarea,label {
+	margin: 5px;
 }
 
 /*--------------------------------------------------*/
 /*Backbones*/
-.su-backbone-w950{
+.su-backbone-w950 {
 	margin: auto;
-    width: 950px;
-   
+	width: 950px;
 }
-.su-backbone-w750{
+.su-backbone-w750 {
 	margin: auto;
-    width: 950px;
-   
+	width: 950px;
 }
-.su-backbone-wfull{
+.su-backbone-wfull {
 	margin: auto;
-     width: 100%;
+	width: 100%;
 }
 /*--------------------------------------------------*/
 /*Rows are frame of cols*/
 .su-backbone-row {
-    display: block;
-    overflow: hidden;
+	display: block;
+	overflow: hidden;
 }
 /* Samples
  * 4column alongside: 25+25+25+5
@@ -32,55 +40,55 @@
  * Lopsided samples
  * 2: 75+25
  * or: 25+75*/
-.su-backbone-col25{
+.su-backbone-col25 {
 	float: left;
-    width: 25%;
+	width: 25%;
 }
-.su-backbone-col50{
+.su-backbone-col50 {
 	float: left;
-    width: 50%;
+	width: 50%;
 }
-.su-backbone-col75{
+.su-backbone-col75 {
 	float: left;
-    width: 75%;
-}	
+	width: 75%;
+}
 
 /*Fine tuning*/
-.su-backbone-col90{
+.su-backbone-col90 {
 	float: left;
-    width: 90%;
+	width: 90%;
 }
-.su-backbone-col80{
+.su-backbone-col80 {
 	float: left;
-    width: 80%;
+	width: 80%;
 }
-.su-backbone-col70{
+.su-backbone-col70 {
 	float: left;
-    width: 70%;
+	width: 70%;
 }
-.su-backbone-col60{
+.su-backbone-col60 {
 	float: left;
-    width: 60%;
+	width: 60%;
 }
-.su-backbone-col50{
+.su-backbone-col50 {
 	float: left;
-    width: 50%;
+	width: 50%;
 }
-.su-backbone-col40{
+.su-backbone-col40 {
 	float: left;
-    width: 40%;
+	width: 40%;
 }
-.su-backbone-col30{
+.su-backbone-col30 {
 	float: left;
-    width: 30%;
+	width: 30%;
 }
-.su-backbone-col20{
+.su-backbone-col20 {
 	float: left;
-    width: 20%;
+	width: 20%;
 }
-.su-backbone-col10{
+.su-backbone-col10 {
 	float: left;
-    width: 10%;
+	width: 10%;
 }
 
 /*--------------------------------------------------*/
@@ -89,167 +97,134 @@
  Right: sepe+r=seper
  Left: sepe+l=sepel*/
 .su-backbone-seper {
-    border-right: 1px solid gray;
-    margin: -1px;
+	border-right: 1px solid gray;
+	margin: -1px;
 }
 .su-backbone-sepel {
-    border-left: 1px solid gray;
-    margin: -1px;
+	border-left: 1px solid gray;
+	margin: -1px;
 }
 .su-backbone-sepet {
-    border-top: 1px solid gray;
-    margin: -1px;
+	border-top: 1px solid gray;
+	margin: -1px;
 }
 .su-backbone-sepeb {
-    border-bottom: 1px solid gray;
-    margin: -1px;
+	border-bottom: 1px solid gray;
+	margin: -1px;
 }
 /*full-fledged seperate*/
 
 .su-backbone-sepeff {
-    border: 1px solid gray;
-    margin: -1px;
+	border: 1px solid gray;
+	margin: -1px;
 }
 /*--------------------------------------------------*/
 /*In Cell operations: Margin inside cell
  mar+t: marigin top*/
 .su-incell-mart {
-    margin-top: 5px;
+	margin-top: 5px;
 }
 .su-incell-marb {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 .su-incell-marl {
-    margin-left: 5px;
+	margin-left: 5px;
 }
 .su-incell-marr {
-    margin-right: 5px;
+	margin-right: 5px;
 }
 /*full-fledged margin*/
 .su-incell-marff {
-    margin: 5px;
-    width: 100% !important;
+	margin: 5px;
+	width: 100% !important;
 }
 /*--------------------------------------------------*/
 
-/*Old framework*/
-
-
-
-.arial {
-    font: 12px Arial,Helvetica,sans-serif;
+/*Alerts*/
+.su-alert-err {
+	background-color: rgba(231, 17, 17, 0.63);
+	border: 1px solid #D91F1F;
+	margin: 1px;
+	padding: 5px;
 }
-.su-err {
-    background-color: red;
-    border: 1px solid gray;
-    margin: 1px;
-    padding: 5px;
+.su-alert-inf {
+	background-color: #E6E59A;
+	border: 1px solid #ABC638;
+	margin: 1px;
+	padding: 5px;
 }
-.su-inf {
-    background-color: yellow;
-    border: 1px solid gray;
-    margin: 1px;
-    padding: 5px;
-}
-.su-suc {
-    background-color: Green;
-    border: 1px solid gray;
-    margin: 1px;
-    padding: 5px;
+.su-alert-suc {
+	background-color: #A2DDA1;
+	border: 1px solid #2A8911;
+	margin: 1px;
+	padding: 5px;
 }
 
-
-/*Page Content*/
-#content {
-	margin: 7px;
-	min-height: 500px;
-	height:auto;
-	line-height: 25px;
-}
-
+/*Link*/
 
 a {
- 
+	text-decoration: underline;
+
 }
 a:hover {
-    text-decoration: underline;
+	color:red;
 }
-.hov:hover {
-    box-shadow: 1px 1px 1px 1px orange;
+
+/*Forms*/
+input,textarea{
+	font-weight: bold;
+	padding: 2px;
 }
-input, label {
-    display: block;
+
+/*Nice box*/
+.su-nicebox-garden{
+	background-color:#ABC638;
 }
-input {
-    border: 2px solid wheat;
-    font-weight: bold;
+.su-nicebox-wheat{
+	background-color: #E6E59A;
 }
-input:hover, textarea:hover {
-    border: 2px solid orange;
+.su-nicebox-milk{
+	background-color: #F2EFDC;
 }
-form {
-    border: 2px dotted gray;
-    padding: 10px;
+.su-nicebox-night{
+	background-color: #037E8C;
 }
-input, textarea {
-    border: 2px solid gray;
-    min-width: 400px;
-    width: auto;
+.su-nicebox-apple{
+	background-color: #F20401;
 }
-input[type=submit], .send {
-    background-color: orange;
-    border-radius: 5px 5px 5px 5px;
-    margin-top: 10px;
+
+/*Page grand titles for divs*/
+.su-pagetitle-bigfont{
+	font-size: 5em;
+	padding-bottom:25px;
+	padding-bottom:25px;
 }
-.su-button {
-    border: 2px solid white;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 1px 1px 1px 1px black;
-    color: black;
-    font-size: 11px;
-    font-weight: bold;
-    margin: 2px;
-    padding: 2px 2px 4px 3px;
+.su-pagetitle-arabesque{
+	font-size: 5em;
+	padding-bottom:25px;
+	padding-top:25px;
+	border-bottom: solid 2px red;
 }
-.su-bg-orn {
-    background-color: orange;
+.su-pagetitle-intro{
+	font-size:2em;
+	border-bottom: solid 2px red;
+	padding: 10px;
+	font-style: italic;
 }
-.su-bg-blu {
-    background-color: LightSteelBlue;
+/*Page Elements*/
+.su-elements-toptoolbar{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	background-color: gray;
+  	font-family:"Arial";
+  	font-size: 12px;
+  	font-weight: bold;
+  	padding: 2px;
 }
-.su-bg-red {
-    background-color: red;
-}
-.su-nav-hor {
-    background-color: #0EC6DE;
-    border-radius: 2px 2px 2px 2px;
-    box-shadow: 2px 1px 2px 1px;
-    height: 60px;
-    list-style-type: none;
-    margin: auto;
-    width: 100%;
-}
-.su-nav-hor li {
-    float: left;
-}
-.su-nav-hor a {
-    border-right: 1px solid #3FBDBF;
-    color: #371C1C;
-    display: block;
-    font-size: 18px;
-    line-height: 60px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-decoration: none;
-}
-.su-nav-hor a:hover {
-    background-color: #E75A5A;
-}
-.su-txt-jus {
-    text-align: justify;
-}
-.su-img-lt {
-    float: left;
-    padding-bottom: 10px;
-    padding-right: 10px;
+.su-elements-moderfooter{
+	height: 150px;
+	background-color: #2A8911;
+	color: white;
 }
