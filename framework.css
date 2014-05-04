@@ -316,6 +316,13 @@ h2, h3 {
 	page-break-after: avoid;
 }
 
+/*Image maniplation*/
+img{
+	overflow:hidden;
+}
+
+
+
 /*----------------------------
  CSS3 Animated Navigation
  -----------------------------*/
